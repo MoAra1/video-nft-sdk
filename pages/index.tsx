@@ -180,12 +180,12 @@ export default function Home() {
     }
   }, [write, asset?.storage?.status?.phase, isWriteInProgress]);
 
-  let twitterLink = `https://twitter.com/intent/tweet?text=Check%20out%20my%20Video%20NFT%20📽️%0D${assetName}%20minted%20on%20the%20%23LongTakeNFT%20Publisher.%0D%0D🛠️%20Built%20with%20%40livepeerstudio%0D%20🌐%20Powered%20by%20%40Livepeer%0D%0DCreate%20your%20%23LongTakeNFT%20here%20👇%20https://lvpr.link/3VQQzU8`;
+  let twitterLink = `https://twitter.com/intent/tweet?text=Check%20out%20my%20Video%20NFT%20📽️%0D${assetName}%20minted%20on%20the%20%23ENClipsNFT%20Demo.%0D%0D🛠️%20Built%20with%20%40livepeerstudio%0D%20🌐%0D%0DCreate%20your%20%23ENCLipsNFT%20here%20👇%20https://bit.ly/3HB5TAl`;
 
   return (
     <div className={styles.container}>
       <Head>
-        <title> Long Take NFT Publisher</title>
+        <title> ENClips Decentralized Video Upload</title>
         <meta name='description' content=' ENClips Demo' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
@@ -220,7 +220,7 @@ export default function Home() {
         <Image src={titleImage} alt='title image' width={700} height={200} priority />
       </div>
       <div className='flex justify-center mb-4 text-lg font-matter'>
-        <p>ENClips decentralized video Built with Livepeer Studio.</p>
+        <p>ENClips decentralized demo video upload Built with Livepeer Studio.</p>
       </div>
       <div className='flex justify-center text-center font-matter'>
         {/* Displays upload form */}
