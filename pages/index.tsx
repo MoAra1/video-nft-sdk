@@ -186,7 +186,7 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title> Long Take NFT Publisher</title>
-        <meta name='description' content=' Long Take NFT Publisher' />
+        <meta name='description' content=' ENClips Demo' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
@@ -194,23 +194,23 @@ export default function Home() {
       <div className='flex justify-between mt-10 font-matter'>
         <div className='ml-2 font-matter'>
           <Link
-            href='https://discord.com/channels/423160867534929930/1044996697090162698'
+            href='https://enftr.io'
             className='text-white mr-4 text-lg hover:text-blue-600 w-16'
           >
-            Tutorials
+            ENFTR
           </Link>
           <Link
-            href='https://discord.com/channels/423160867534929930/1044996697090162698'
+            href='https://whitepaper.enftr.io'
             className='text-white mr-4 text-lg hover:text-blue-600 w-16'
           >
-            FAQs
+            Whitepaper
           </Link>
-          <Link
-            href='https://discord.com/channels/423160867534929930/1044996697090162698'
+          {/* <Link
+            href='https://discord.co'
             className='text-white text-lg hover:text-blue-600 w-16'
           >
             Support
-          </Link>
+          </Link> */}
         </div>
         <ConnectButton />
       </div>
@@ -220,7 +220,7 @@ export default function Home() {
         <Image src={titleImage} alt='title image' width={700} height={200} priority />
       </div>
       <div className='flex justify-center mb-4 text-lg font-matter'>
-        <p>Built with Livepeer Studio. Powered by Livepeer.</p>
+        <p>ENClips decentralized video Built with Livepeer Studio.</p>
       </div>
       <div className='flex justify-center text-center font-matter'>
         {/* Displays upload form */}
